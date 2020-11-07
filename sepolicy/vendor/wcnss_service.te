@@ -1,2 +1,5 @@
+type wcnss_service;
+type wcnss_service_exec;
+
 allow wcnss_service vendor_data_file:dir create_dir_perms;
 allow wcnss_service vendor_data_file:file create_file_perms;
