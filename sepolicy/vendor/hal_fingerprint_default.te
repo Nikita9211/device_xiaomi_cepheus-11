@@ -4,6 +4,7 @@ type fingerprint_data_file, data_file_type, file_type;
 type vendor_fp_prop, property_type;
 type qdsp_device;
 type firmware_file;
+type xdsp_device;
 
 attribute hal_perf;
 attribute hal_perf_client;
