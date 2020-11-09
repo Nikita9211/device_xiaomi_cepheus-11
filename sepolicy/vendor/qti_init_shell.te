@@ -1,2 +1,4 @@
+type qti_init_shell;
+
 allow qti_init_shell proc_sched_energy_aware:file { write open };
 dontaudit qti_init_shell self:capability dac_override;

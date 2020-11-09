@@ -1,1 +1,3 @@
+type sensors;
+
 r_dir_file(sensors, sysfs_graphics)
