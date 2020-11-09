@@ -1,6 +1,3 @@
-type sysfs_devfreq;
-type latency_device;
-
 allow hal_power_default proc_sched_energy_aware:file { write open };
 allow hal_power_default sysfs:file { read open write getattr };
 allow hal_power_default sysfs_devices_system_cpu:file { write };
